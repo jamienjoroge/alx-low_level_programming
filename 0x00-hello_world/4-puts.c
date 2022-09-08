@@ -1,7 +1,10 @@
 #include <stdio.h>
+
 /**
- *main - main block
- *return: 0
+ * main - Main method
+ *
+ *Description: Printing using puts
+ *Return: Always returns (0)
  */
 int main(void)
 {
