@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-int x = 0;
+char x = 0;
 for (x = 'a'; x <= 'z'; x++)
 {
 if (x == 'e' || x == 'q')
