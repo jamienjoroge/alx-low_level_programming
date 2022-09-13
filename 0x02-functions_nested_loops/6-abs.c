@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_abs - computes the abs value
- *@num: num to be computed
+ *@r: num to be computed
  *
  *Return: rturns an integer
  */
