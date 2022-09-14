@@ -15,8 +15,8 @@ void times_table(void)
 		{
 			int results = x * y;
 			_putchar('0' + results);
-			_putchar(44);
-			_putchar(32);
+			_putchar(',');
+			_putchar(' ');
 		}
 		_putchar('\n');
 	}
