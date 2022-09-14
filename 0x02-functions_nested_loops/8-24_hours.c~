@@ -1,0 +1,13 @@
+#include "main.h"
+/**
+ *jack_bauer - Prints every minute for 24 hours
+ *
+ *Return: returns void
+ */
+void jack_bauer(void)
+{
+	int minutes;
+	int hours;
+
+	for (hours = 0; hours < 24; hours++)
+	{
