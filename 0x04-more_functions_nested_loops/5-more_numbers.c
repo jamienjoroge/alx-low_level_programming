@@ -1,0 +1,24 @@
+#include "main.h"
+/**
+ *more_numbers - prints 0 -14 10 times
+ *
+ *Return: void
+ */
+void more_numbers(void)
+{
+	int ten, teen;
+
+	for (ten = 0; ten < 10; ten++)
+	{
+		for (teen = 0; teen <= 14; teen++)
+		{
+			if (teen > 9)
+			{
+				_putchar(teen / 10 + '0');
+			}
+
+			_putchar(teen % 10 + '0');
+		}
+		_putchar('\n');
+	}
+}
